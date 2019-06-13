@@ -52,7 +52,14 @@ ul{
   width: 90%;
 }
 
+ul li span{
+  display: inline-block;
+}
+
 ul li span:nth-child (1) {
   width: 30px;
 }
-css
+
+ul li span:nth-child (2) {
+  width: 60px;
+}
