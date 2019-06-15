@@ -4,8 +4,9 @@
 
 body {
   background-color: #fff;
-  font-family: sans-serif;
+  font-family: SF Pro Text, sans-serif;
   font-size: 10px;
+  color: #464646;
 }
 
 .container {
@@ -24,42 +25,84 @@ nav {
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
-  background-color: #161616;
+  background-image: linear-gradient(#1C55D4,#1441A6);
+  background-color: #1441A6
   display: block;
 }
 
 .routes {
-  margin-top: 50px;
+  margin-top: 45px;
   width: auto;
   border-bottom: 0.25px;
-  padding: 20px 16px 20px 16px;
 }
+
+#eastbound {
+  background-color:#D6FFCC;
+}
+
+#northbound{
+  background-color:#CCD7FF;
+}
+
+#southbound{
+  background-color:#99F8FD;
+}
+
+#reroute{
+  background-color:#FEB9B9;
+}
+
+#out-of-service{
+  background-color:#F5DAC8;
+}
+
+#eastbound h1 {
+  color: #464646;
+}
+
 
 h1{
   font-size: 20px;
   font-weight: bold;
-  padding-bottom: 20px;
+  padding: 30px 20px 16px 16px;
+  font-family: SF Pro Text;
 }
 
 h2{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
-  padding-bottom: 15px;
+  padding: 20px 20px 16px 12px;
 }
 
 ul{
   position:relative;
-  width: 90%;
+  width: 100%;
+  margin: 5px 0px;
+}
+
+ul li {
+
+  width: 100%;
+  border-bottom: 1px solid #464646;
 }
 
 ul li span{
   display: inline-block;
 }
 
-ul li span:nth-child (1) {
-  width: 30px;
+ul li span:nth-child(1) {
+  width: 40px;
+  font-weight: bold;
 }
 
-ul li span:nth-child (2) {
-  width: 60px;
+ul li span:nth-child(2) {
+  width: 200px;
+}
+
+ul li span:nth-child(3) {
+  width: 110px;
+}
+
+ul li span:nth-child(4) {
+  width: 25px;
 }
