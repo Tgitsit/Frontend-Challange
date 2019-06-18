@@ -63,6 +63,8 @@ color:#FEB9B9;
 #out-of-service{
 color:#F5DAC8;
 }
+
+just adding this so I can add, commit and push again
 */
 
 
@@ -74,9 +76,6 @@ h1{
   margin-top: 20px;
 }
 
-#reroute .h1 {
-  color: red;
-}
 
 h2{
   font-size: 14px;
