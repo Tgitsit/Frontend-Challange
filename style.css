@@ -73,14 +73,17 @@ h1{
   font-weight: bold;
   padding: 20px 20px 20px 20px;
   font-family: SF Pro Text;
-  margin-top: 20px;
+  background-color: #EDEFF1;
 }
 
+Northbound h1 {
+  margin-top: 0;
+}
 
 h2{
   font-size: 14px;
   font-weight: normal;
-  padding: 16px 16px 16px 16px;
+  padding: 10px 16px 10px 5px;
 }
 
 
@@ -93,7 +96,6 @@ ul{
 ul li {
   width: 100%;
   border-top: 1px solid #AFBCCD;
-  padding-top: 20px;
 
 }
 
@@ -108,9 +110,9 @@ ul li span:nth-child(1) {
   font-weight: bold;
   color: #fff;
   background-image:url(../images/6.svg);
-  display: inline-block;
-  align-self: center;
   background-position:center;
+  text-align: center;
+  padding-top: 7px;
   height: 31px;
   width: 31px;
 }
@@ -126,4 +128,5 @@ ul li span:nth-child(3) {
 
 ul li span:nth-child(4) {
     width: 5px;
+    position: absolute;
 }
