@@ -109,7 +109,7 @@ ul li span:nth-child(1) {
   width: 15px;
   font-weight: bold;
   color: #fff;
-  background-image:url(../images/6.svg);
+  background-image:url(./images/6.svg);
   background-position:center;
   text-align: center;
   padding-top: 7px;
@@ -123,7 +123,7 @@ ul li span:nth-child(2) {
 }
 
 ul li span:nth-child(3) {
-  width: 115px;
+  width: 120px;
 }
 
 ul li span:nth-child(4) {
