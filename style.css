@@ -80,7 +80,6 @@ li {
 
 .bus-info{
   width: 100%;
-  height: 76px;
   background-color: #fff;
 }
 
@@ -92,13 +91,51 @@ li {
   justify-content: space-between;
 }
 
-.bus-info li{
-  padding; 15px;
+.line { width: 5%; justify-content: center;}
+.destination { width: 25%; }
+.time { width: 50%; }
+.arrow { width: 5%; }
+
+
+.northbound {
+  width: 100%;
+  height: 24px;
+  background-color: #1C55D4;
+  padding: 20px 15px 15px 15px;
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
 }
 
+.southbound {
+  width: 100%;
+  height: 24px;
+  background-color: #1C55D4;
+  padding: 20px 15px 15px 15px;
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
 
+.reroute {
+  width: 100%;
+  height: 24px;
+  background-color: #C3192D;
+  padding: 20px 15px 15px 15px;
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
 
-
+.outoforder {
+  width: 100%;
+  height: 24px;
+  background-color: #838383;
+  padding: 20px 15px 15px 15px;
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
 
 
 
