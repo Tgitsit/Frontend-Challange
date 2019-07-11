@@ -89,6 +89,7 @@ li {
   border-bottom: 1px solid #AFBCCD;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .line { width: 5%; justify-content: center;}
@@ -138,6 +139,10 @@ li {
 }
 
 
+.line1 { width: 6%; justify-content: center;}
+.destination1 { width: 40%; }
+.frequency1 { width: 40%; }
+.arrow1 { width: 5%; }
 
 
 
