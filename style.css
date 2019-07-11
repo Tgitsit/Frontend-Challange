@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
   width: 375px;
   overflow: hidden;
-  padding: 20rem;
+  padding: 15rem;
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
   padding-top: env(safe-area-inset-top);
@@ -50,7 +50,8 @@ h6 {
   height: 64px;
   list-style-type: none;
   margin: 0;
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
   padding-top: 10px;
 }
 
@@ -86,10 +87,13 @@ li {
 .bus-info ul{
   line-height: 1.5;
   list-style-type: none;
-  margin: 0;
-  display: flex;
   border-bottom: 1px solid #AFBCCD;
-  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bus-info li{
+  padding; 15px;
 }
 
 
